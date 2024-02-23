@@ -41,11 +41,10 @@ img {
   padding-bottom: 120px;
   }
 .container {
-  width: 1158px;
+  max-width: 320px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto; 
+  margin: 0 auto; 
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -115,10 +114,16 @@ text-decoration: none;
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    margin-right: 76px;
+    margin-right: 149px;
     margin-bottom: 0;
   padding: 24px 0;
 
+}
+.button-menu {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
 }
 .logo-part {
     color:#2e2f42;
@@ -1299,6 +1304,7 @@ padding: 72px 16px 40px 16px;
   .mobmenu.is-open {
     display: none;
   }
+
 }
 @media screen and (min-width: 1158px) {
 .mobmenu.is-open {
