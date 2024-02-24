@@ -1012,7 +1012,7 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 margin-bottom: 4px;
 }
-.input {
+.div-input {
   position: relative;
 }
 
@@ -1030,7 +1030,7 @@ margin-bottom: 4px;
 .input-text:focus {
   border-color: #4D5AE5; 
 }
-.input-text + .icon-label {
+.input-text:focus + .icon-label {
   fill: #4D5AE5;
 }
 .icon-label {
